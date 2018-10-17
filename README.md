@@ -1,7 +1,7 @@
 # vim-chrome-bookmarks-pack
 Plugin manager for Vim. Depends on Vim's built-in package support and chrome bookmarks.
-Vim plugin urls stored into chrome (chromium) bookmarks `Other bookmarks -> vim -> vim-pack -> vim-pack-start-*` and `Other bookmarks -> vim -> vim-pack -> vim-pack-opt-*`.
-Update output with links to changelog.
+Vim plugin urls stored into chrome (chromium) bookmarks `Other bookmarks -> vim -> vim-pack -> vim-pack-start-*` and `Other bookmarks -> vim -> vim-pack -> vim-pack-opt-*`.  
+`vim-chrome-bookmarks-pack update` output with links to changelog.  
 This is first init version.
 
 ## Install
