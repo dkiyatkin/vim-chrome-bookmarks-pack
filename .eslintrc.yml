@@ -1,0 +1,29 @@
+root: true
+plugins:
+  - node
+extends:
+  - standard
+  - plugin:node/recommended
+rules:
+  comma-dangle: 0
+  max-lines:
+    - error
+    - 300
+  valid-jsdoc:
+    - error
+    - matchDescription: ".+"
+      requireParamDescription: false
+      requireReturnDescription: false
+env:
+  node: true
+  browser: false
+
+overrides:
+  - files:
+    - '**/*.spec.js'
+    env:
+      mocha: true
+    globals:
+      assert: true
+      expect: true
+      should: true
